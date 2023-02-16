@@ -526,11 +526,6 @@ header.sticky{
         font-weight: 700;
         line-height: 1.1;
     }
-
-    .portfolio{
-        padding-top: 50px;
-        padding-bottom: 30px;
-    }
 }
 
 @media (max-width: 720px){
