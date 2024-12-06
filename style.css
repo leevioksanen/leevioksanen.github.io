@@ -346,17 +346,13 @@ header.sticky{
     }
     .home{
         height: 87vh;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.02)), url(images/bg_2.png);
     }
 
-    .row img{
-        width: 240px;
-        height: 240px;
-        border-radius: 8px;
-        display: block;
-        transition: transform 0.5s;
-    }
-    .home{
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.02)), url(images/bg_2.png);
+    .btn {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1.5rem 2.5rem;
     }
 }
 
@@ -481,6 +477,12 @@ header.sticky{
     .portfolio-content{
 
         margin-top: 2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1rem 2rem;
     }
 
     .main-text h4{
