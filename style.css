@@ -9,11 +9,11 @@
 }
 
 :root{
-    --bg-color: #b99976;
-    --second-bg-color: #d2b48c;
+    --bg-color: #0c0c0c;
+    --second-bg-color: #161616;
     --text-color: #fff;
     --second-color: rgb(221, 221, 221);
-    --main-color: #202020;
+    --main-color: #3b95fd;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -87,7 +87,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(images/background2.png);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.02)), url(images/bg_1.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -114,7 +114,7 @@ section{
 
 .two{
     display: inline-block;
-    color: var(--second-color);
+    color: var(--text-color);
     font-size: 20px;
     font-weight: 500;
 }
@@ -136,61 +136,12 @@ section{
 }
 
 .home-text p{
-    color: var(--second-color);
+    color: var(--text-color);
     font-size: var(--p-font);
     line-height: 1.8;
     margin-bottom: 40px;
 }
 
-.button{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn {
-    display: inline-block;
-    padding: 12px 28px;
-    background: var(--main-color);
-    border-radius: 5px;
-    color: var(--text-color);
-    font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 600;
-    transition: all .45s ease;
-}
-
-.btn:hover{
-    transform: scale(0.9);
-}
-
-.btn2{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text-color);
-    margin-left: 35px;
-}
-
-.btn2 span i{
-    height: 55px;
-    width: 55px;
-    background: var(--main-color);
-    color: var(--text-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 50%;
-    margin-right: 15px;
-    transition: all .45s ease;
-}
-
-.btn2:hover{
-    transform: scale(1.1) translateY(5px);
-}
 
 header.sticky{
     background: var(--bg-color);
@@ -247,77 +198,32 @@ header.sticky{
     font-size: var(--h2-font);
 }
 
-.portfolio-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    align-items: center;
-    gap: 2.5rem;
-    margin-top: 5rem;
-}
-
-.row{
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.row img{
-    width: 300px;
-    height: 300px;
-    border-radius: 8px;
-    display: block;
-    transition: transform 0.5s;
-}
-
-.layer {
+.btn {
+    border-radius: 40px;
     width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0.3,0.4,0.5,0.6), #000000fb);
-    position: absolute;
-    border-radius: 8px;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 40px;
-    transition: height 0.5s;
-}
-
-.layer h5{
-    font-size: 20px;
+    border: 0;
+    font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all .45s ease;
 }
 
-.layer p{
-    color: var(--second-color);
-    font-size: 1rem;
-    line-height: 1.8;
+.btn--primary {
+    background: var(--main-color);
+    color: white;
 }
 
-.layer i{
-    color: var(--main-color);
-    margin-top: 20px;
-    font-size: 20px;
-    background: var(--text-color);
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+.btn--primary:hover {
+    transform: scale(1.05);
+    background-color: #54c8fd;
 }
 
-.row:hover img{
-    transform: scale(1.1);
-}
-
-.row:hover .layer{
-    height: 100%;
+.btn--primary:active {
+    transform: scale(1.05);
+    background-color: #54c8fd;
 }
 
 .contact{
@@ -449,8 +355,9 @@ header.sticky{
         display: block;
         transition: transform 0.5s;
     }
-
-    
+    .home{
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.02)), url(images/bg_2.png);
+    }
 }
 
 @media (max-width: 920px){

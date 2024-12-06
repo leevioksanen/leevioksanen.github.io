@@ -9,11 +9,11 @@
 }
 
 :root{
-    --bg-color: #b99976;
-    --second-bg-color: #d2b48c;
+    --bg-color: #0c0c0c;
+    --second-bg-color: #161616;
     --text-color: #fff;
-    --second-color: #ccc;
-    --main-color: #202020;
+    --second-color: rgb(221, 221, 221);
+    --main-color: #3b95fd;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -79,6 +79,10 @@ span{
     display: none;
 }
 
+section{
+    padding: 160px 15% 120px;
+}
+
 header.sticky{
     background: var(--bg-color);
     border-bottom: 1px solid #ffffff1a;
@@ -106,10 +110,11 @@ header.sticky{
 }
 
 .portfolio-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    min-height: 200px;
+    gap: 6rem;
     margin-top: 5rem;
 }
 
@@ -122,6 +127,8 @@ header.sticky{
 
 .row img{
     width: 100%;
+    max-height: 700px;
+    max-width: 1500px;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
@@ -184,7 +191,7 @@ header.sticky{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    background: var(--second-bg-colorbg-color);
+    background: var(--bg-color);
 }
 
 .last-text p{
@@ -221,6 +228,24 @@ header.sticky{
     }
     section{
         padding: 110px 3% 60px;
+    }
+
+    .portfolio-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 200px;
+        gap: 4rem;
+        margin-top: 5rem;
+    }
+
+    .row img{
+        width: 100%;
+        max-height: 550px;
+        max-width: 900px;
+        border-radius: 8px;
+        display: block;
+        transition: transform 0.5s;
     }
 }
 
