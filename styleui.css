@@ -135,7 +135,7 @@ header.sticky{
 
 .row video{
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
@@ -198,7 +198,7 @@ header.sticky{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .last-text p{
@@ -235,8 +235,13 @@ header.sticky{
         min-height: 200px;
     }
 
+    .row img{
+        max-width: 1000px;
+    }
+
     .row video{
-        max-width: 600px;
+        max-width: 1000px;
+        max-height: 700px;
     }
 }
 
