@@ -10,7 +10,7 @@
 
 :root{
     --bg-color: #0c0c0c;
-    --second-bg-color: #161616;
+    --second-bg-color: #131313;
     --text-color: #fff;
     --second-color: rgb(221, 221, 221);
     --main-color: #3b95fd;
@@ -184,6 +184,7 @@ header.sticky{
     font-size: var(--p-font);
     line-height: 1.8;
     margin-bottom: 4rem;
+    text-align: justify;
 }
 
 .main-text{
@@ -321,7 +322,7 @@ header.sticky{
 
 @media (max-width: 1480px){
     header{
-        padding: 12px 2.5%;
+        padding: 12px 5%;
         transition: .1s;
     }
 
@@ -330,7 +331,7 @@ header.sticky{
         transition: 0.1s;;
     }
     section{
-        padding: 110px 3% 60px;
+        padding: 110px 5% 60px;
     }
 }
 

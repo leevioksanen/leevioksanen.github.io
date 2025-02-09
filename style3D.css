@@ -10,7 +10,7 @@
 
 :root{
     --bg-color: #0c0c0c;
-    --second-bg-color: #161616;
+    --second-bg-color: #131313;
     --text-color: #fff;
     --second-color: rgb(221, 221, 221);
     --main-color: #3b95fd;
@@ -219,6 +219,10 @@ header.sticky{
     header{
         padding: 12px 2.5%;
         transition: .1s;
+    }
+
+    .portfolio-content{
+        padding: 12px 5%; 
     }
 
     header.sticky{
