@@ -203,7 +203,7 @@ header.sticky{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
 }
 
 .last-text p{
