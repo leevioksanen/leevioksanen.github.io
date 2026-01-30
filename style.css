@@ -13,7 +13,7 @@
     --second-bg-color: #131313;
     --text-color: #fff;
     --second-color: rgb(221, 221, 221);
-    --main-color: #3b95fd;
+    --main-color: #1475e4;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -87,7 +87,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.02)), url(images/LandingPage.PNG);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.02)), url(images/LandingPage1.PNG);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -219,7 +219,7 @@ header.sticky{
 
 .btn--primary:hover {
     transform: scale(1.05);
-    background-color: #54c8fd;
+    background-color: #349aff;
 }
 
 .btn--primary:active {
@@ -347,7 +347,7 @@ header.sticky{
     }
     .home{
         height: 87vh;
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.02)), url(images/LandingPage.PNG);
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.02)), url(images/LandingPage2.PNG);
     }
 
     .btn {
