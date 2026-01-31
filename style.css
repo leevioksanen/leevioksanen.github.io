@@ -358,6 +358,9 @@ header.sticky{
 }
 
 @media (max-width: 920px){
+        .logo{
+    font-size: 30px;
+    }
     .about{
         grid-template-columns: 1fr;
     }
@@ -390,6 +393,7 @@ header.sticky{
         text-align: left;
         transition: all .45s ease;
     }
+
     .navlist a{
         display: block;
         margin: 17px;
@@ -433,6 +437,10 @@ header.sticky{
 }
 
 @media (max-width: 720px){
+
+        .logo{
+    font-size: 25px;
+    }
 
     .row img{
         width: 150px;
